@@ -1,8 +1,8 @@
 <?php  
-  $servername = "fdb3.atspace.me";
-        $username = "1565343_iot";
-        $password = "12345free";
-        $dbname = "1565343_iot";
+  $servername = "";
+        $username = "";
+        $password = "";
+        $dbname = "";
 $conn = mysqli_connect($servername, $username, $password, $dbname);
   
 $setSql = "SELECT * from IoTweatherData";  
